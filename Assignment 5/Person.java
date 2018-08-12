@@ -46,10 +46,10 @@ class Test
             case 1: Person obj = new Person(name);
                     obj.introduce();
                     break;
-            case 2: Student obj1 = new Student(name);
+            case 2: CSEStudent obj1 = new CSEStudent(name);
                     obj1.introduce();
                     break;
-            case 3: CSEStudent obj2 = new CSEStudent(name);
+            case 3: Student obj2 = new Student(name);
                     obj2.introduce();
                     break;
         }
